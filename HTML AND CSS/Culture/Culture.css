@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-header {
+    background-color: rgb(172, 133, 133);
+    text-align: center;
+    border: none;
+    padding: 5px;
+    font-size: x-large;
+  }
+  
+  .main-header img {
+    height:40px;
+    display: block;
+  }
+  
+  nav {
+    display: flex;
+    align-items:center;
+    gap:20px;
+    width: min(1450px, 100%);
+    margin-inline:auto;
+    padding-inline:40px;
+    justify-content:center;
+  }
+  
+  .nav ul {
+    margin: 0;
+    padding:0;
+    display: flex;
+    list-style:none;
+  }
+  .nav ul li a {
+    padding: 0.5em;
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+  }
+  .nav a:hover {
+    background-color: rgba(26, 95, 20, 1);
+  }
+  div{
+      border: 1px;
+      background-color: rgb(69, 151, 172);
+      background-size: cover;
+      padding-top: 5px;
+      padding-right: 10px;
+      padding-bottom: 5px;
+      padding-left: 20px;
+      font-size: 20px;
+      height: 100vh;
+      background-position: center;
+      background-size: 100%;
+  }
+  .Culture-font{
+    font-size: 23px;
+  }
+  .Culture{
+    box-sizing: border-box;
+    padding: 25px;
+    border: 2px none;
+    height: 100vh;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 100%;
+    bottom: 100PX;
+  }

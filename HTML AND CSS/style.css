@@ -1,0 +1,12 @@
+div{
+    background: red;
+    color: pink;
+    border: none;
+}
+.GreenBackground{
+    background: green;
+    color: yellow
+}
+#sampleid{
+    color:black
+}
